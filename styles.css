@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size:1.2rem;
+    text-align:center;
+}
+
+#container{
+    border:3px inset;
+    height:fit-content;
+    width:50%;
+    max-width:750px;
+    min-width:480px;
+    margin: 0 auto;
+}
+
+.head{
+    background:antiquewhite;
+    border:5px inset;
+}
+
+input{
+    width:400px;
+    height:70px;
+    border:3px inset;
+    font-size:xxx-large;
+}
+
+button{
+    margin-top:10px;
+    width:300px;
+    height:50px;
+    border-radius:20px;
+    background:green;
+    font-size:larger;
+    cursor:pointer;
+}
+
+#game-holder{
+    border:2px inset;
+    background:blue;
+}
