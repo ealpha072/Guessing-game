@@ -8,10 +8,8 @@ let gameDiv = document.getElementById('game-holder')
 const restart = document.createElement('button');
 let guesses = [];
 let numOfGuesses = 1;
-//let guessDisplay = document.querySelector('p #game-holder');
 let random = Math.floor(Math.random()*100)+1;
 
-console.log(random)
 function endGame(){
     input.Value = '';
     input.setAttribute('disabled','');
@@ -30,6 +28,7 @@ function newGame(){
     guesses = [];
     para.innerHTML = '';
     para2.innerHTML = '';
+    head.innerHTML = '';
     gameDiv.removeChild(restart);
 }
 
